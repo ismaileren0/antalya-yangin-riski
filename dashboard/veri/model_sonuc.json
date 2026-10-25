@@ -1,0 +1,87 @@
+{
+  "izgara": {
+    "bbox": [
+      29.2,
+      36.1,
+      32.6,
+      37.6
+    ],
+    "cozunurluk": 0.01,
+    "genislik": 340,
+    "yukseklik": 150
+  },
+  "donem": {
+    "baslangic": "2026-04-18",
+    "bitis": "2026-10-18"
+  },
+  "test_aylari": [
+    "2026-09",
+    "2026-10"
+  ],
+  "test": {
+    "kural": {
+      "yakalama_yuzde": 45.8,
+      "auc": 0.682
+    },
+    "model": {
+      "yakalama_yuzde": 58.0,
+      "auc": 0.821
+    },
+    "yangin_sayisi": 131
+  },
+  "kural_tum_aylar_yakalama": 33.6,
+  "ay_disarida": {
+    "model_yakalama_yuzde": 50.4,
+    "kural_yakalama_yuzde": 33.6
+  },
+  "degisken_onemi": {
+    "sicaklik_maks": 0.3104,
+    "nem_min": 0.1497,
+    "ruzgar_maks": 0.1434,
+    "kuru_gun": 0.1292,
+    "yagis_toplam": 0.1067,
+    "ndvi": 0.0892,
+    "ndmi": 0.0714
+  },
+  "degisken_adlari": {
+    "ndmi": "Bitki nemi (NDMI)",
+    "ndvi": "Bitki yoğunluğu (NDVI)",
+    "sicaklik_maks": "Maks. sıcaklık",
+    "nem_min": "Min. bağıl nem",
+    "ruzgar_maks": "Maks. rüzgâr",
+    "yagis_toplam": "Aylık yağış",
+    "kuru_gun": "Kuru gün sayısı"
+  },
+  "normalleme_sinirlari": {
+    "ndmi": [
+      -0.14684000000000003,
+      0.4055
+    ],
+    "ndvi": [
+      -0.029540000000000007,
+      0.842
+    ],
+    "sicaklik_maks": [
+      10.12,
+      36.22
+    ],
+    "nem_min": [
+      22.0,
+      55.67
+    ],
+    "ruzgar_maks": [
+      7.97,
+      17.75
+    ],
+    "yagis_toplam": [
+      3.7,
+      146.7
+    ],
+    "kuru_gun": [
+      3.0,
+      30.0
+    ]
+  },
+  "satir_sayisi": 143598,
+  "yangin_hucre_ay": 351
+}
