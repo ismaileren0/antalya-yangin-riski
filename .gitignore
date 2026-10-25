@@ -1,0 +1,13 @@
+# --- Gizli anahtarlar: ASLA GitHub'a yuklenmez ---
+.env
+.env.*
+*.env
+!.env.example
+secrets.toml
+.streamlit/secrets.toml
+
+# --- Yerel ortam ve buyuk ham veri ---
+.venv/
+__pycache__/
+/veri/
+*.joblib

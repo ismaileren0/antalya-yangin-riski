@@ -1,0 +1,14 @@
+requests
+python-dotenv
+numpy
+pandas
+shapely>=2.0
+geopandas>=0.14
+pyogrio
+rasterio
+sentinelhub>=3.10
+scikit-learn
+joblib
+streamlit>=1.46
+streamlit-folium>=0.22
+folium>=0.17
